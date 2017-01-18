@@ -1,0 +1,17 @@
+
+.navbar-brand>span{
+  display: inline-block;
+  vertical-align: middle;
+
+}
+
+.nav-logo{
+  max-width: 20px;
+  max-height: 20px;
+  margin-right: 0.5em;
+
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #55cfc4;
+    /* background-color: #e7e7e7; */
+}

@@ -209,3 +209,22 @@ blockquote {
 .nounNames {
   font-size: 1em;
 }
+
+/* line 2, ../sass/partials/_navigation.scss */
+.navbar-brand > span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* line 8, ../sass/partials/_navigation.scss */
+.nav-logo {
+  max-width: 20px;
+  max-height: 20px;
+  margin-right: 0.5em;
+}
+
+/* line 14, ../sass/partials/_navigation.scss */
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: #55cfc4;
+  /* background-color: #e7e7e7; */
+}
