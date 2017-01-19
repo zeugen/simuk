@@ -49,19 +49,154 @@
               <div class="form-group">
                 <input type="text" class="form-control" placeholder="Search">
               </div>
-            -->
+
               <button type="submit" class="btn btn-default"><span><i class="fa fa-search" aria-hidden="true"></i></span></button>
+              -->
             </form>
           </ul>
 
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
-  <h1>hello world</h1>
+
+    <!-- Full Page Image Background Carousel Header -->
+    <header id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for Slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <!-- Set the first background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('img/lpslider/phantomcurveb.jpg');"></div>
+                <div class="carousel-caption">
+                    <!--<h2>Caption 1</h2>-->
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-md-4"><img src="img/lpslider/phantom6.jpg" alt="phantom 6" class="img-responsive img-slide-product"></div>
+                        <div class="col-md-6  text-left">
+                          <header class="md-title"><h1>a beauty on the outside</h1></header>
+                          <p class="description">Donec volutpat porta risus posuere imperdiet. Sed viverra dolor sed dolor placerat ornare ut Copy Writers ambushed her, made her drunk with</p>
+                          <button class="btn button ">More info</button>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <!-- Set the second background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('img/lpslider/iphone7.jpg');"></div>
+                <div class="carousel-caption">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-md-4"><img src="img/lpslider/iphone-7r.jpg" alt="phantom 6" class="img-responsive img-slide-product"></div>
+                      <div class="col-md-6  text-left">
+                        <header class="md-title"><h1>welcome to the next generation.</h1></header>
+                        <p class="description">Donec volutpat porta risus posuere imperdiet. Sed viverra dolor sed dolor placerat ornare ut Copy Writers ambushed her, made her drunk with</p>
+                        <button class="btn button ">More info</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="item">
+                <!-- Set the third background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('img/lpslider/huawei-p9-maxb.jpg');"></div>
+                <div class="carousel-caption">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-md-4"><img src="img/lpslider/huawei-p9-banner.jpg" alt="phantom 6" class="img-responsive img-slide-product"></div>
+                      <div class="col-md-6  text-left">
+                        <header class="md-title"><h1>reinvent smartphone photography</h1></header>
+                        <p class="description">Ingenious optical engineering by Leica meets world class design - the Huawei P9, the ground-breaking dual-lens smartphone co-engineered with Leica.</p>
+                        <button class="btn button ">More info</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+
+    </header>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <div class="row row-centered">
+            <div class="col-lg-12 col-centered">
+                <h1 class ="lg-title ">latest collection</h1>
+                <p class="description">The latest and the best phones that you will be able to purchase from us</p>
+            </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <img src="img/phones/new/Lenovo.png" alt="The new Lenovo" class="img-responsive img-prod">
+              <div class="caption">
+                <h3>Lenovo</h3>
+                <p>...</p>
+                <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <img src="img/phones/new/huawei-gr5.png" alt=" the new huawei-gr5" class="img-responsive img-prod">
+              <div class="caption">
+                <h3>Huawei Gr5</h3>
+                <p>...</p>
+                <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <img src="img/phones/new/nexus.png" alt=" new google nexus phone" class="img-responsive img-prod">
+              <div class="caption">
+                <h3>Google Nexus</h3>
+                <p>...</p>
+                <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Simu Kenya 2017</p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+
   <!-- scripts to be moved and wathced later on by webpack-->
   <script src='js/jquery-3.1.1.min.js'></script>
   <script src='js/bootstrap.js'></script>
-
+  <script>
+  $('.carousel').carousel({
+      interval: 5000 //changes the speed
+  })
+  </script>
 
 </body>
 </html>

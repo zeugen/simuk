@@ -64,6 +64,59 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
+/*
+ * Start Bootstrap - Full Slider (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+/* line 7, ../sass/partials/_full-slider.scss */
+html,
+body {
+  height: 100%;
+}
+
+/* line 12, ../sass/partials/_full-slider.scss */
+.carousel,
+.item {
+  height: 100%;
+  margin-top: -50px;
+}
+
+/* line 21, ../sass/partials/_full-slider.scss */
+.carousel-inner {
+  height: 100%;
+  position: relative;
+}
+
+/* Background images are set within the HTML using inline CSS, not here */
+/* line 28, ../sass/partials/_full-slider.scss */
+.fill {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+/* line 38, ../sass/partials/_full-slider.scss */
+footer {
+  margin: 50px 0;
+}
+
+/* line 41, ../sass/partials/_full-slider.scss */
+.carousel-caption {
+  position: absolute;
+  top: 55%;
+  transform: translateY(-55%);
+}
+
+/* line 47, ../sass/partials/_full-slider.scss */
+.carousel-control.right, .carousel-control.left {
+  background-image: none;
+}
+
 /* line 1, ../sass/partials/_modernscale.scss */
 body {
   font-size: 100%;
@@ -201,30 +254,108 @@ blockquote {
 }
 
 /* line 4, ../sass/partials/_typography.scss */
-.bigTitle {
-  font-size: 4.375em;
+.title, .lg-title, header .md-title {
+  text-transform: capitalize;
+  padding-bottom: 1.075em;
 }
 
-/* line 7, ../sass/partials/_typography.scss */
+/* line 8, ../sass/partials/_typography.scss */
+.lg-title {
+  padding: 0.55em;
+}
+
+/* line 13, ../sass/partials/_typography.scss */
 .nounNames {
   font-size: 1em;
 }
 
+/* line 21, ../sass/partials/_typography.scss */
+p.description {
+  margin-bottom: 1em;
+}
+
 /* line 2, ../sass/partials/_navigation.scss */
+.navbar {
+  margin-bottom: 0px;
+  z-index: 10000;
+}
+
+/* line 6, ../sass/partials/_navigation.scss */
 .navbar-brand > span {
   display: inline-block;
   vertical-align: middle;
 }
 
-/* line 8, ../sass/partials/_navigation.scss */
+/* line 12, ../sass/partials/_navigation.scss */
 .nav-logo {
   max-width: 20px;
   max-height: 20px;
   margin-right: 0.5em;
 }
 
-/* line 14, ../sass/partials/_navigation.scss */
+/* line 18, ../sass/partials/_navigation.scss */
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
   color: #55cfc4;
   /* background-color: #e7e7e7; */
+}
+
+/* General button style (reset) */
+/* line 2, ../sass/partials/_buttons.scss */
+.button {
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: inherit;
+  background-color: #F21FA0;
+  cursor: pointer;
+  padding: 10px 45px;
+  display: inline-block;
+  border-radius: 50px;
+  color: #fff;
+  overflow: hidden;
+  letter-spacing: 1px;
+  outline: none;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+/* line 24, ../sass/partials/_buttons.scss */
+.button:after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  color: #999999;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+/* centered columns styles */
+/* line 2, ../sass/partials/_layout.scss */
+.row {
+  padding: 2em 0;
+}
+
+/* line 5, ../sass/partials/_layout.scss */
+.row-centered {
+  text-align: center;
+}
+
+/* line 8, ../sass/partials/_layout.scss */
+.col-centered {
+  display: inline-block;
+  float: none;
+  /* reset the text-align */
+  /* inline-block space fix */
+  margin-right: -4px;
+}
+
+/* line 1, ../sass/partials/_latest-collection.scss */
+.img-prod {
+  max-width: 170px;
+  max-height: 221px;
 }

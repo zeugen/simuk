@@ -1,9 +1,23 @@
 *,html,body{
   font-family: 'Lato', sans-serif;
 }
-.bigTitle{
-  font-size: 4.375em;
+.title{
+  text-transform: capitalize;
+    padding-bottom: 1.075em;
+}
+.lg-title{
+  @extend .title;
+  padding: 0.55em;
+
 }
 .nounNames{
   font-size: 1em;
+}
+header .md-title{
+@extend .title;
+
+
+}
+p.description{
+  margin-bottom: 1em;
 }
